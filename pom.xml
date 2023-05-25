@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.hupidou</groupId>
+    <artifactId>java-roadmap</artifactId>
+    <version>1.0</version>
+
+    <name>成为一名优秀的Java工程师的路线图</name>
+    <description>欢迎加入我们的组织：hupidou，让我们彼此交流，互相成长</description>
+    <developers>
+        <developer>
+            <name>mizhe</name>
+            <timezone>每日按心情更新...</timezone>
+        </developer>
+        <developer>
+            <name>hongwentao</name>
+            <roles>
+                <role>前小米资深Java工程师</role>
+                <role>技术发烧友</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>欢迎你的加入...</name>
+        </developer>
+    </developers>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <vertx.version>4.4.0</vertx.version>
+        <springboot.version>2.7.9</springboot.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${springboot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-stack-depchain</artifactId>
+                <version>${vertx.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>3.0.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.12</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

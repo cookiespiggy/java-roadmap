@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:my="http://www.example.com/schema/my"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                          http://www.springframework.org/schema/beans/spring-beans.xsd
+                          http://www.example.com/schema/my
+                          http://www.example.com/schema/my/my.xsd">
+
+    <my:my-bean-2 name="小明" age="18"/>
+
+</beans>

@@ -1,3 +1,1 @@
-http\://org.hupidou/schema/rhino/rhino-1.0.xsd=./org/hupidou/springroadmap/namespacehandler/rhino-1.0.xsd
-
-
+http\://www.example.com/schema/my/my.xsd=META-INF/my.xsd

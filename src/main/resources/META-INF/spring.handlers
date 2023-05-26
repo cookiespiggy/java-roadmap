@@ -1,1 +1,1 @@
-http\://org.hupidou/schema/rhino=org.hupidou.springroadmap.namespacehandler.RhinoNamespaceHandler
+http\://www.example.com/schema/my=org.hupidou.springroadmap.namespacehandler.MyNamespaceHandler

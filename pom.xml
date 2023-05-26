@@ -8,6 +8,19 @@
     <artifactId>java-roadmap</artifactId>
     <version>1.0</version>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <name>成为一名优秀的Java工程师的路线图</name>
     <description>欢迎加入我们的组织：hupidou，让我们彼此交流，互相成长</description>
     <developers>
